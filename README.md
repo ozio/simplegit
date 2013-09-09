@@ -1,7 +1,7 @@
 Simple Git
 ==========
 
-Simple aliases for Git. Usage of git starting with "g". After "g" you can use any known commands of git (g push, g pull). 
+Simple aliases for Git. Usage of git starting with "g". After "g" you can use any known commands of git (g push, g pull, etc.).
 
 This alias function includes other alias links, like "g a" for "git add", "g p" for "git pull" and others. If you want to write branch name, "m" is standart alias for "master", "o" is for "origin" and "f branch_name" is for "feature/branch_name".
 
