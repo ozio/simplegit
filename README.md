@@ -13,65 +13,65 @@ Install
 Examples
 --------
 
-> g a .
+`> g a .`
 git add .
 
-> g b a
+`> g b a`
 git branch -a
 
-> g c m
+`> g c m`
 git checkout master
 
-> g c f m
+`> g c f m`
 git checkout feature/master
 
-> g c m fix
+`> g c m fix`
 git commit -m "fix"
 
-> g c b new_branch
+`> g c b new_branch`
 git checkout -b new_branch
 
-> g d
+`> g d`
 git diff
 
-> g f
+`> g f`
 git fetch
 
-> g l
+`> g l`
 git log
 
-> g m m
+`> g m m`
 git merge master
 
-> g p
+`> g p`
 git pull
 
-> g p r
+`> g p r`
 git pull --rebase
 
-> g p o m
+`> g p o m`
 git push origin master
 
-> g p u o f new_branch
+`> g p u o f new_branch`
 git push -u origin feature/new_branch
 
-> g r
+`> g r`
 git reset
 
-> g r h h
+`> g r h h`
 git reset ^HEAD --hard
 
-> g s
+`> g s`
 git status
 
-> g st
+`> g st`
 git stash
 
-> g st a
+`> g st a`
 git stash apply
 
-> g st p
+`> g st p`
 git stash pop
 
-> g v
+`> g v`
 git version

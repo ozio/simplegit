@@ -124,13 +124,11 @@ elif [ "$1" == "st" ]; then
   shift
   if [ "$1" == "a" ]; then
     _g stash apply
+  elif [ "$1" == "p" ]; then
+    _g stash pop
   else
     _g stash $@
   fi
-
-elif [ "$1" == "unst" ]; then
-  shift
-  _g stash apply
 
 elif [ "$1" == "v" ]; then
   _g version
