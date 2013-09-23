@@ -1,7 +1,7 @@
 #!/bin/sh
 _g(){
   if [ -d ./.git ]; then
-    echo -e "\033[32mgit $@\033[37m"
+    echo -e "\033[32mgit $@\033[00m"
     git $@
   else
     echo "Not a git repository"
